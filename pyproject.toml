@@ -1,0 +1,21 @@
+[project]
+name = "sedona-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-sedona[kepler-map]>=1.7.1",
+    "chispa>=0.10.1",
+    "pandas>=2.2.3",
+    "geopandas>=1.0.1",
+    "pyspark>=3.5.3",
+    "pyarrow>=20.0.0",
+    "setuptools>=80.8.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "pytest>=8.3.4",
+]
