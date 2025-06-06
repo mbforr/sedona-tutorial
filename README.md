@@ -55,7 +55,7 @@ uv run --with jupyter jupyter lab
 
 This notebook depends on sample geospatial data. You can download a zip file of all the data and place it in the main directory after download.
 
-👉 **[Download the data here](https://sedona-tutorial.s3.us-east-1.amazonaws.com/data.zip)**
+👉 **[Download the data here](https://sedona-tutorial.nyc3.digitaloceanspaces.com/data.zip)**
 
 Please download and place the data in a local folder before running the notebook.
 
